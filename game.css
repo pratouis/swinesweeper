@@ -14,8 +14,17 @@
 }
 .gridBox {
   background-color: #ddd;
-  border: 7px gray inset;  
+  border: 7px gray inset;
 }
 .gridBox:hover {
    border: 7px gray outset;
+}
+
+.hidden {
+  display: none;
+}
+
+.not-hidden {
+  display: flex;
+  justify-content: center;
 }
