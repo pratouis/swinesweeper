@@ -1,0 +1,21 @@
+.gridBox-sm {
+  width: 10px;
+  height: 10px;
+}
+
+.gridBox-md {
+  width: 15px;
+  height: 15px;
+}
+
+.gridBox-lg {
+  width: 15px;
+  height: 15px;
+}
+.gridBox {
+  background-color: #ddd;
+  border: 7px gray inset;  
+}
+.gridBox:hover {
+   border: 7px gray outset;
+}
