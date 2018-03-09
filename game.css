@@ -27,4 +27,34 @@
 .not-hidden {
   display: flex;
   justify-content: center;
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+.grow{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+div > div.not-hidden:hover {
+  opacity:1.0;
+  box-shadow:none;
+}
+.pigScare-0 {
+  display: none;
+}
+
+.pigScare-1 {
+  color: green;
+}
+
+.pigScare-2 {
+  color: blue;
+}
+
+.pigScare-3 {
+  color: red;
+}
+
+.pigScare-4 {
+  color: purple;
 }
